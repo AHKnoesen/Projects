@@ -9,7 +9,7 @@
     width: 50px;
     height: 50px;
     background-color: #333;
-    color: #fff;
+    color: #740000;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -18,6 +18,28 @@
     text-align: center;
     z-index: 9999;
 }
+
+#back-to-top {
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+  }
+  
+  #back-to-top button {
+    font-size: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  #back-to-top button:hover {
+    background-color: #0056b3;
+  }
+  
 
     .back-to-top:hover {
         background-color: #f00;
@@ -30,7 +52,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #df0000;
     z-index: 9999;
 }
 
@@ -75,5 +97,3 @@ header {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-
-

@@ -5,6 +5,33 @@ header {
     padding: 20px;
 }
 
+<header id="top" class="hero">
+  <div class="hero-content">
+    <img id="header-image" src="./image/header-image.jpg" alt="header-image">
+    <h1>ChatGPT</h1>
+    <p>A large language model trained by OpenAI, here to answer your questions and have conversations with you.</p>
+  </div>
+</header>
+
+.hero {
+    background-image: url("./image/background-image.jpg");
+    background-color: #333; /* fallback color */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: white;
+  }
+  
+
+
 .container {
     max-width: 800px;
     margin: 0 auto;

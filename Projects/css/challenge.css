@@ -1,0 +1,79 @@
+/* 
+    Write CSS here to ensure that the back to top button is fixed to the 
+    bottom right hand side of the screen 
+*/
+.back-to-top {
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    z-index: 9999;
+}
+
+    .back-to-top:hover {
+        background-color: #f00;
+    }
+
+
+/* Write CSS here to make navbar sticky to the top of the page */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        margin: 0 20px;
+    }
+
+    nav a {
+        color: #333;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 20px 10px;
+        display: block;
+    }
+
+        nav a:hover {
+            color: #f00;
+        }
+
+
+
+
+
+header {
+    position: relative;
+}
+
+    header img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+

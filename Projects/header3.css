@@ -5,9 +5,12 @@ header {
     padding: 20px;
 }
 
-header img {
+#profile img {
+    display: block;
+    margin: 0 auto;
     border-radius: 50%;
-}
+  }
+  
 
 
 nav {

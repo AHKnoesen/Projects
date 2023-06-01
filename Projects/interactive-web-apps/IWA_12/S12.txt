@@ -1,0 +1,13 @@
+In this code, we first define the STATUS_MAP object that contains the status properties for each book.
+
+Then, we select the necessary elements for each book using their respective IDs and classes. For example, for Book 1, we select book1Status as the element with the class status inside the #book1 element.
+
+Next, we retrieve the status value by trimming and converting the text content to lowercase. For Book 1, we store it in book1StatusValue.
+
+We then update the color of the status indicator text by accessing the corresponding color value from the STATUS_MAP object using STATUS_MAP[book1StatusValue].color.
+
+Finally, we enable/disable the buttons based on the properties in the STATUS_MAP object. If the property is true, the button is enabled; otherwise, it is disabled. For example, book1Reserve.disabled = !STATUS_MAP[book1StatusValue].canReserve sets the disabled property of the book1Reserve button based on the canReserve property in the STATUS_MAP object.
+
+The same logic is applied to Book 2 and Book 3, selecting the respective elements and updating their properties accordingly.
+
+Note that there are no color styles defined in the JavaScript code as the desired colors are already defined in the HTML using inline styles. The JavaScript code only updates the style.color property of the status indicator text.

@@ -1,0 +1,14 @@
+To correctly display the nickname or firstname in the message and handle cases where neither is present, you need to use template literals instead of single quotes and concatenate the variables within the template. Additionally, you should check if either the nickname or firstname is present before constructing the message.
+\\fixed code
+const nickname = "Timmy";
+const firstname = "Timothy";
+
+if (nickname) {
+  console.log(`Good morning, ${nickname}!`);
+} else if (firstname) {
+  console.log(`Good morning, ${firstname}!`);
+} else {
+  console.log("Good morning!");
+}
+
+In the original code, the message was enclosed in single quotes instead of backticks, which are used for template literals. The variables ${nickname} and {firstname} were not properly enclosed within ${} placeholders to be evaluated and substituted with their values. Therefore, they were treated as literal strings and not replaced with the actual values of the variables.

@@ -1,0 +1,15 @@
+Use correct variable names and values:
+
+Change {leoName} to leoName in the leo and sarah variables.
+Change {leoSurname} to leoSurname in the leo variable.
+Change {surname} to sarahSurname in the sarah variable.
+Remove unnecessary concatenations:
+
+Remove the concatenation operator + between the variables in the leo and sarah variables. Instead, use template literals (``) to interpolate the variables directly.
+Correctly parse the balance values:
+
+Instead of using parseInt, use parseFloat to parse floating-point numbers.
+Format the total amount owed:
+
+Use the toFixed(2) method to format the owed variable with two decimal places.
+Use the toLocaleString() method to add a thousand separator to the formatted balance.

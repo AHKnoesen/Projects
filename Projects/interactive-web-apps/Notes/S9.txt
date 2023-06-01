@@ -1,0 +1,5 @@
+The correct syntax is used to access properties in the tax and rent objects using square brackets ([]).
+The value from tax[913] is converted to a decimal using parseFloat() before dividing by 100.
+The type variable is constructed by concatenating lodging, a hyphen (-), and size.
+The balance calculation subtracts the expenses, including the rent amount accessed using rent[type].
+The toFixed(2) method is used to round the balance to two decimal places before logging it to the console.

@@ -1,7 +1,0 @@
-In the corrected code:
-
-The missing semicolons at the end of each variable declaration have been added.
-The object properties are assigned using colons (:), not equal signs (=).
-The property names with spaces, such as access id and postal-code, are enclosed in quotes ('' or "").
-The nested objects for address have been properly defined.
-The console.log statements are corrected to access the postal-code property within the nested address object using square brackets ([]).

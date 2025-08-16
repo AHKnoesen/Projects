@@ -1,9 +1,0 @@
-Added semicolons at the end of each statement.
-Used the ternary operator to check if an item exists for the futureId key and log the appropriate message.
-Changed the assignment of copied using the spread operator { ...holidays[christmas] }.
-Set the hours, minutes, seconds, and milliseconds of the copied date to zero using copied.date.setHours(0, 0, 0, 0).
-Corrected the usage of getDate(), getMonth(), and getFullYear() by calling them as functions: getDate(), getMonth(), getFullYear().
-Created a formatDate function to format the date in the desired format (DD/MM/YYYY).
-Corrected the randomHoliday assignment by calling Math.random() as a function: Math.random().
-Called getTime() method on dates to compare their timestamps correctly.
-Used strict equality (!==) instead of loose equality (!=) in the console.log statements for ID change, Name change, and Date change.

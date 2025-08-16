@@ -1,7 +1,0 @@
-To correct the code and perform numerical addition, you need to convert the string value to a number. Here's the corrected code:
-
-\\fixed code
-const value = 3;
-console.log(value + 4 + value);
-
-The mistake in the code is that the variable value is declared as a string with the value "3". When you perform the operation value + 4 + value, JavaScript treats the + operator as string concatenation instead of numerical addition because one of the operands (value) is a string.

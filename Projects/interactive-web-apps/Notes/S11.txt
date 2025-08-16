@@ -1,7 +1,0 @@
-This code selects each order's root element using the data-key attribute, and then selects the specific elements within that order to update their content.
-
-For example, for Order 1, it selects the order1Root using document.querySelector('[data-key="order1"]'), and then selects the biscuits count element using order1Root.querySelector('.biscuits .count'). It then sets the content of order1Biscuits to the value from the data-biscuits attribute using order1Root.dataset.biscuits. Similarly, it updates the other elements with their respective data attribute values.
-
-The code does the same for Order 2 and Order 3, selecting the corresponding elements and updating their content accordingly.
-
-By running this modified code, the "Loading..." prompts will be replaced with the actual JavaScript values from the data attributes for each order.
